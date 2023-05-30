@@ -6,7 +6,7 @@ sysuse auto, clear
 scatter price mpg 
 graph export ./figures/figure1.png, replace wid(1000)
 scatter length weight
-graph export ./figures/figure2.png, replace wid(1000)
+graph export ./figures/figure4.png, replace wid(1000)
 
 
 /*
